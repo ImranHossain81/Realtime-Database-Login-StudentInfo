@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "317313299635",
+    "project_id": "realtimedatabaselogstudentinfo",
+    "storage_bucket": "realtimedatabaselogstudentinfo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317313299635:android:719de52834462acd332cc6",
+        "android_client_info": {
+          "package_name": "com.example.realtimedatabaselogstudentinfo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVMW8TawiLkAQ2L3VpvEkbwLNUyJ1dhFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
