@@ -17,6 +17,11 @@ class DeleteActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
+        binding.backbt.setOnClickListener {
+            startActivity(Intent(this@DeleteActivity, MainActivity::class.java))
+            finish()
+        }
+
         binding.deleteBtn.setOnClickListener {
             val name = binding.nameEtxt.text.toString()
             val phone = binding.phoneEtxt.text.toString()

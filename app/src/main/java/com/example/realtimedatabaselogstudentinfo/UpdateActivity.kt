@@ -17,6 +17,11 @@ class UpdateActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
+        binding.backbt.setOnClickListener {
+            startActivity(Intent(this@UpdateActivity, MainActivity::class.java))
+            finish()
+        }
+
         binding.updateBtn.setOnClickListener {
             val batch = binding.batchEtxt.text.toString()
             val name = binding.nameEtxt.text.toString()

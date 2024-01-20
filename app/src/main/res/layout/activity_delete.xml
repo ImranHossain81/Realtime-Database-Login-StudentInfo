@@ -8,6 +8,18 @@
     android:background="#8E5AEA"
     tools:context=".DeleteActivity">
 
+    <ImageButton
+        android:id="@+id/backbt"
+        android:layout_width="52dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#8E5AEA"
+        android:src="@drawable/backsea"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"

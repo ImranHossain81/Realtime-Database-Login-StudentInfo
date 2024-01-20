@@ -16,6 +16,11 @@ class AddActivity : AppCompatActivity() {
         binding = ActivityAddBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.backbt.setOnClickListener {
+            startActivity(Intent(this@AddActivity, MainActivity::class.java))
+            finish()
+        }
+
         binding.saveBtn.setOnClickListener {
             addStudent() }
 
