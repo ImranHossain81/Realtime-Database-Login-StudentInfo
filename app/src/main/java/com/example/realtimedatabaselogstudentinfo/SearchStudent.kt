@@ -1,5 +1,6 @@
 package com.example.realtimedatabaselogstudentinfo
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -16,6 +17,11 @@ class SearchStudent : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
+
+        binding.backbt.setOnClickListener {
+            startActivity(Intent(this@SearchStudent, MainActivity::class.java))
+            finish()
+        }
 
         binding.searchBtn.setOnClickListener {
             val name = binding.namesearc.text.toString()
